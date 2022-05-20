@@ -69,6 +69,14 @@ h1{
 	color: white;
 	margin: 20px 0px 20px;
 	font-size: 75px;
+    position: relative;
+    animation: text 8s 1;
+    animation-name: example;
+}
+@keyframes example{
+    0%{left: 0px; top: 0px }
+    25%{left:50px; top: 0px}
+    
 }
 h3{
 	color: white;
